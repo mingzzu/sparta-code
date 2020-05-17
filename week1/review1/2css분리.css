@@ -1,0 +1,56 @@
+* {
+    font-family: 'Gamja Flower', cursive;
+}
+
+.cutie {
+    text-align: center;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.cutie0 {
+    font-size: 150%;
+    font-weight: 300px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(240, 191, 159);
+    text-decoration-style: wavy;
+
+}
+
+.cutie1 {
+    background-color: plum;
+    border-color: mediumvioletred;
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.cutie2 {
+    background-color: wheat;
+    border-color: yellow;
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 5px;
+  }
+
+.cutie3 {
+    background-color: rgb(185, 247, 185);
+    border-color: rgb(104, 185, 104);
+    border-style: dotted;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.cutie4 {
+    background-image: url('https://i.pinimg.com/474x/23/08/d9/2308d9c42abaa3d118f33c15552c508b.jpg');
+        background-position: center;
+        background-size: cover;
+    border-radius: 10px;
+    border-width: 5px;
+}

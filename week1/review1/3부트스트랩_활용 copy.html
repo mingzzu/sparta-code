@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+</head>
+
+<style>
+     * {
+        font-family: 'Gamja Flower', cursive;
+    }
+    .wrap {
+        width: 900px;
+        margin: auto;
+
+    }
+
+    .edge {
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 1px;
+        width: 500px;
+        height: 310px;
+        padding: 50px;
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <div class="wrap">
+
+        <div class="jumbotron">
+            <h1 class="display-4">나홀로 링크 메모장!</h1>
+            <p class="lead">중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다</p>
+            <hr class="my-4">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
+            </p>
+        </div>
+
+        <div class="edge">
+            <div class="form-group" id="formpost">
+                <label for="exampleInputEmail1">아티클 URL</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="">
+                <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group" id="formpost">
+                <label for="exampleInputPassword1">간단 코멘트</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-primary">기사저장</button>
+        </div></br>
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top"
+                    src="http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-title"><span style='color: skyblue;'>Card title</span></p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><span style='font-weight: bold; color: blue;'>Last updated 3 mins ago</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-title"><span style='color: skyblue;'>Card title</span></p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><span style='font-weight: bold; color: blue;'>Last updated 3 mins ago</span>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-title"><span style='color: skyblue;'>Card title</span></p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><span style='font-weight: bold; color: blue;'>Last updated 3 mins ago</span>
+                    </p>
+                </div>
+            </div>
+        </div></br>
+        <div class="card-deck">
+            <div class="card">
+                    <img class="card-img-top"
+                        src="http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title"><span style='color: skyblue;'>Card title</span></p>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><span style='font-weight: bold; color: blue;'>Last updated 3 mins
+                                ago</span></p>
+                    </div>
+            </div>
+            <div class="card">
+                    <img class="card-img-top"
+                        src="http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title"><span style='color: skyblue;'>Card title</span></p>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><span style='font-weight: bold; color: blue;'>Last updated 3 mins
+                                ago</span></p>
+                    </div>
+            </div>
+            <div class="card">
+                    <img class="card-img-top"
+                        src="http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title"><span style='color: skyblue;'>Card title</span></p>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><span style='font-weight: bold; color: blue;'>Last updated 3 mins
+                                ago</span></p>
+                    </div>
+            </div>
+        </div>    
+
+
+
+
+        </div>
+</body>
+
+</html>

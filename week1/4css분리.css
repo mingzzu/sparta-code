@@ -1,0 +1,22 @@
+       * {
+            font-family: 'Noto Serif KR', serif;
+        }
+        .mytitle{
+            text-align: center;
+            background-color: grey;
+            color: whitesmoke;
+            width: 300px;
+            height: 200px;
+            padding: 30px 30px 100px 100px; 
+            /* 위,오른쪽, 아래쪽, 왼쪽, 시계 방향*/
+            /* margin: 30px; */
+            background-image: url('http://file3.instiz.net/data/cached_img/upload/2018/06/20/16/b67ec8a546345121d3957d1a7148cfa6.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        .wrap{
+            width: 300px;
+            margin: auto;
+        }
